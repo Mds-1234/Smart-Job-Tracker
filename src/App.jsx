@@ -14,7 +14,7 @@ const App = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter>
       <ApplicationProvider>
         <div className="flex min-h-screen bg-surface-50">
           {/* Main Content */}

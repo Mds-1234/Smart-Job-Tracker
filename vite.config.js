@@ -3,6 +3,5 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/Smart-Job-Tracker/',
   plugins: [react(), tailwindcss()],
 })
